@@ -1,6 +1,6 @@
 # flutter_search_panel
 
-A new flutter plugin project.
+A Flutter plugin for Search panel
 
 ## Getting Started
 

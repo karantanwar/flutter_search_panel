@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:flutter_search_panel/flutter_search_panel.dart';
 
 void main() => runApp(new MyApp());
