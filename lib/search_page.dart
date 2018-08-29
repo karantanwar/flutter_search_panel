@@ -10,10 +10,10 @@ class SearchPage extends StatefulWidget {
 
   SearchPage(
       {this.data,
-        this.icon,
-        this.textStyle,
-        this.padding,
-        this.color,
+      this.icon,
+      this.textStyle,
+      this.padding,
+      this.color,
       this.title});
 
   @override
@@ -40,7 +40,7 @@ class _SearchPageState extends State<SearchPage> {
     super.dispose();
   }
 
-  _onChange (String selection) {
+  _onChange(String selection) {
     Navigator.pop(context, selection);
   }
 
@@ -81,46 +81,44 @@ class _SearchPageState extends State<SearchPage> {
           new Expanded(
             child: _searchList.length != 0 || controller.text.isNotEmpty
                 ? new ListView.builder(
-              itemCount: _searchList.length,
-              itemBuilder: (context, i) {
-                return new Card(
-                  color: widget.color,
-                  child: FlatButton(
-                    onPressed: () {
-                      Navigator.pop(context, _searchList[i]);
-                    },
-                    child: new ListTile(
-                      leading: widget.icon,
-                      title: new Text(
-                          _searchList[i],
-                          style: widget.textStyle
-                      ),
-                    ),
-                  ),
-                  margin: const EdgeInsets.all(0.0),
-                );
-              },
-            )
-                : new ListView.builder(
-              itemCount: _dataList.length,
-              itemBuilder: (context, index) {
-                return new Card(
-                  color: widget.color,
-                  child: FlatButton(
-                      onPressed: () {
-                        _onChange( _dataList[index]);
-                      },
-                      child: new ListTile(
-                        leading: widget.icon,
-                        title: new Text(
-                          _dataList[index],
-                          style: widget.textStyle,
+                    itemCount: _searchList.length,
+                    itemBuilder: (context, i) {
+                      return new Card(
+                        color: widget.color,
+                        child: FlatButton(
+                          onPressed: () {
+                            Navigator.pop(context, _searchList[i]);
+                          },
+                          child: new ListTile(
+                            leading: widget.icon,
+                            title: new Text(_searchList[i],
+                                style: widget.textStyle),
+                          ),
                         ),
-                      )),
-                  margin: const EdgeInsets.all(0.0),
-                );
-              },
-            ),
+                        margin: const EdgeInsets.all(0.0),
+                      );
+                    },
+                  )
+                : new ListView.builder(
+                    itemCount: _dataList.length,
+                    itemBuilder: (context, index) {
+                      return new Card(
+                        color: widget.color,
+                        child: FlatButton(
+                            onPressed: () {
+                              _onChange(_dataList[index]);
+                            },
+                            child: new ListTile(
+                              leading: widget.icon,
+                              title: new Text(
+                                _dataList[index],
+                                style: widget.textStyle,
+                              ),
+                            )),
+                        margin: const EdgeInsets.all(0.0),
+                      );
+                    },
+                  ),
           ),
         ],
       ),

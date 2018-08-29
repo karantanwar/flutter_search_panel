@@ -1,11 +1,15 @@
 name: flutter_search_panel
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: Karan Tanwar
+homepage: https://github.com/karantanwar/flutter_search_panel
 
 dependencies:
   flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the

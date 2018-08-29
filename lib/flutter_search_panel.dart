@@ -78,23 +78,19 @@ class _FlutterSearchPanelState extends State<FlutterSearchPanel> {
 
   @override
   Widget build(BuildContext context) => new RaisedButton(
-    color: widget.color ?? Colors.blue,
+        color: widget.color ?? Colors.blue,
         child: Flex(
           direction: Axis.horizontal,
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             Flexible(
-
               child: Padding(
-
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
                   selection,
-
                   style: widget.textStyle ?? Theme.of(context).textTheme.button,
                 ),
               ),
-
             ),
           ],
         ),
