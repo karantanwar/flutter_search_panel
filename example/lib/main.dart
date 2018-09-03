@@ -28,14 +28,12 @@ class _MyAppState extends State<MyApp> {
             selected: 'a',
             title: 'Demo Search Page',
             data: ['This', 'is', 'a', 'test', 'array'],
-            icon: new Icon(Icons.label, color: Colors.black),
-            color: Colors.white,
-            textStyle: new TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20.0, decorationStyle: TextDecorationStyle.dotted),
+            icon: new Icon(Icons.check_circle, color: Colors.white),
+            color: Colors.blue,
+            textStyle: new TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20.0, decorationStyle: TextDecorationStyle.dotted),
             onChanged: (value) {
               print(value);
             },
-
-
           ),
         ),
       ),

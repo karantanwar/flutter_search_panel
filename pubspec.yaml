@@ -1,11 +1,15 @@
 name: flutter_search_panel
-description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+description: Flutter search panel is a widget that can be used to provide search functionality to users for selectiong values from an array of strings. Can be used instead of Dropdownbutton for stability and better looks.
+version: 0.0.2
+author: Karan Tanwar <karantanwar.nitd@gmail.com>
+homepage: https://github.com/karantanwar/flutter_search_panel
 
 dependencies:
   flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the
@@ -16,6 +20,10 @@ flutter:
   plugin:
     androidPackage: xyz.altercode.fluttersearchpanel
     pluginClass: FlutterSearchPanelPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

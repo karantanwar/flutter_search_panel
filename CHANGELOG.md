@@ -1,3 +1,8 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial commit
+
+## 0.0.2
+
+* Updating docs
+* Maintenance (Search page title fix)
