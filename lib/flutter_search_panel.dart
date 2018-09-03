@@ -59,6 +59,7 @@ class _FlutterSearchPanelState extends State<FlutterSearchPanel> {
       context,
       MaterialPageRoute(
           builder: (context) => SearchPage(
+              title: widget.title,
               data: widget.data,
               icon: widget.icon ?? _defaultIcon,
               padding: widget.padding ?? _defaultPadding,
