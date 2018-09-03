@@ -20,18 +20,18 @@ import 'package:flutter_search_panel/flutter_search_panel.dart';
 ## How To Use
 
 ```dart
-  FlutterSearchPanel(
-    padding: EdgeInsets.all(10.0),
-    selected: 'a',
-    title: 'Demo Search Page',
-    data: ['This', 'is', 'a', 'test', 'array'],
-    icon: new Icon(Icons.label, color: Colors.black),
-    color: Colors.white,
-    textStyle: new TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20.0, decorationStyle: TextDecorationStyle.dotted),
-    onChanged: (value) {
-      print(value);
-    },
-  )
+FlutterSearchPanel(
+  padding: EdgeInsets.all(10.0),
+  selected: 'a',
+  title: 'Demo Search Page',
+  data: ['This', 'is', 'a', 'test', 'array'],
+  icon: new Icon(Icons.check_circle, color: Colors.white),
+  color: Colors.blue,
+  textStyle: new TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20.0, decorationStyle: TextDecorationStyle.dotted),
+  onChanged: (value) {
+    print(value);
+  },
+),
 ```
 
 ## Bugs & Requests
