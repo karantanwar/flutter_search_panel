@@ -4,7 +4,7 @@
 
 A Widget to allow users to search from a list of string and make a selection (Similar to a DropDownButtom).
 
-## 🎖 Installing
+## Installing
 
 ```yaml
 dependencies:
