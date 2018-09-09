@@ -6,3 +6,9 @@
 
 * Updating docs
 * Maintenance (Search page title fix)
+
+
+## 1.0.0
+
+* First stable release
+* Description Update
