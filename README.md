@@ -1,6 +1,6 @@
 # Flutter Search Panel
 
-[![pub package](https://img.shields.io/badge/pub-0.0.2-orange.svg)](https://pub.dartlang.org/packages/flutter_search_panel)
+[![pub package](https://img.shields.io/badge/pub-1.0.0-orange.svg)](https://pub.dartlang.org/packages/flutter_search_panel)
 
 A Widget to allow users to search from a list of string and make a selection (Similar to a DropDownButtom).
 
@@ -8,7 +8,7 @@ A Widget to allow users to search from a list of string and make a selection (Si
 
 ```yaml
 dependencies:
-  flutter_search_panel: ^0.0.2
+  flutter_search_panel: ^1.0.0
 ```
 
 ### Import
