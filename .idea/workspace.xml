@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46f9b3f5-b398-49f9-9942-72d293044a71" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/screenshots/1.png" afterPath="$PROJECT_DIR$/screenshots/1.png" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2.png" afterPath="$PROJECT_DIR$/screenshots/2.png" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -50,11 +49,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <first_editor relative-caret-position="234">
+                <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
                 <folding>
-                  <marker date="1537276236017" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
-                  <marker date="1537276236017" expanded="true" signature="319:325" ph="^1.0.0" />
+                  <marker date="1537276581413" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
+                  <marker date="1537276581413" expanded="true" signature="319:325" ph="^1.0.0" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -418,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537276258679</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="size update">
+      <created>1537276469157</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537276469157</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -441,7 +447,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -498,7 +504,8 @@
     <MESSAGE value="v0.0.2 init" />
     <MESSAGE value="clean up" />
     <MESSAGE value="example update" />
-    <option name="LAST_COMMIT_MESSAGE" value="example update" />
+    <MESSAGE value="size update" />
+    <option name="LAST_COMMIT_MESSAGE" value="size update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -535,8 +542,8 @@
           <first_editor relative-caret-position="30">
             <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             <folding>
-              <marker date="1537276236017" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
-              <marker date="1537276236017" expanded="true" signature="319:325" ph="^1.0.0" />
+              <marker date="1537276581413" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
+              <marker date="1537276581413" expanded="true" signature="319:325" ph="^1.0.0" />
             </folding>
           </first_editor>
           <second_editor />
@@ -640,8 +647,8 @@
           <first_editor relative-caret-position="285">
             <caret line="19" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
             <folding>
-              <marker date="1537276236017" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
-              <marker date="1537276236017" expanded="true" signature="319:325" ph="^1.0.0" />
+              <marker date="1537276581413" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
+              <marker date="1537276581413" expanded="true" signature="319:325" ph="^1.0.0" />
             </folding>
           </first_editor>
           <second_editor />
@@ -675,8 +682,8 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1537276236017" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
-              <marker date="1537276236017" expanded="true" signature="319:325" ph="^1.0.0" />
+              <marker date="1537276581413" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
+              <marker date="1537276581413" expanded="true" signature="319:325" ph="^1.0.0" />
             </folding>
           </first_editor>
           <second_editor />
@@ -769,8 +776,8 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1537276236017" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
-              <marker date="1537276236017" expanded="true" signature="319:325" ph="^1.0.0" />
+              <marker date="1537276581413" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
+              <marker date="1537276581413" expanded="true" signature="319:325" ph="^1.0.0" />
             </folding>
           </first_editor>
           <second_editor />
@@ -971,11 +978,11 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <first_editor relative-caret-position="234">
+            <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
             <folding>
-              <marker date="1537276236017" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
-              <marker date="1537276236017" expanded="true" signature="319:325" ph="^1.0.0" />
+              <marker date="1537276581413" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
+              <marker date="1537276581413" expanded="true" signature="319:325" ph="^1.0.0" />
             </folding>
           </first_editor>
           <second_editor />
@@ -985,8 +992,8 @@
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1537276236017" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
-            <marker date="1537276236017" expanded="true" signature="319:325" ph="^1.0.0" />
+            <marker date="1537276581413" expanded="true" signature="281:325" ph="dependencies: &lt;1 key&gt;" />
+            <marker date="1537276581413" expanded="true" signature="319:325" ph="^1.0.0" />
           </folding>
         </state>
       </provider>

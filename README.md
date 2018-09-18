@@ -36,8 +36,8 @@ FlutterSearchPanel(
 
 ## Screenshots
 
-![alt text](screenshots/1.png "Search Button")
-![alt text](screenshots/2.png "Search Panel")
+![alt text](screenshots/1.png "Search Button") { width: 200px; }
+![alt text](screenshots/2.png "Search Panel") { width: 100px; }
 
 
 ## Bugs & Requests
