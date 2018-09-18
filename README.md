@@ -34,6 +34,12 @@ FlutterSearchPanel(
 ),
 ```
 
+## Screenshots
+
+![alt text](screenshots/1.png "Search Button") ![alt text](screenshots/2.png "Search Panel")  
+
+
+
 ## Bugs & Requests
 
 If you encounter any bugs feel free to open an issue. Raise a ticket on github for suggestions. Pull request are also welcome.
