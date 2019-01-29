@@ -8,7 +8,7 @@ A Widget to allow users to search from a list of string and make a selection (Si
 
 ```yaml
 dependencies:
-  flutter_search_panel: ^1.0.0
+  flutter_search_panel: ^1.0.1
 ```
 
 ### Import
@@ -20,15 +20,23 @@ import 'package:flutter_search_panel/flutter_search_panel.dart';
 ## How To Use
 
 ```dart
-FlutterSearchPanel(
+List<SearchItem<int>> data = [
+  SearchItem(0, 'This'),
+  SearchItem(1, 'is'),
+  SearchItem(2, 'a'),
+  SearchItem(3, 'test'),
+  SearchItem(4, '.'),
+];
+
+FlutterSearchPanel<int>(
   padding: EdgeInsets.all(10.0),
-  selected: 'a',
+  selected: 3,
   title: 'Demo Search Page',
-  data: ['This', 'is', 'a', 'test', 'array'],
+  data: data,
   icon: new Icon(Icons.check_circle, color: Colors.white),
   color: Colors.blue,
   textStyle: new TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20.0, decorationStyle: TextDecorationStyle.dotted),
-  onChanged: (value) {
+  onChanged: (int value) {
     print(value);
   },
 ),
@@ -37,7 +45,6 @@ FlutterSearchPanel(
 ## Screenshots
 
 ![alt text](screenshots/1.png "Search Button") ![alt text](screenshots/2.png "Search Panel")  
-
 
 
 ## Bugs & Requests

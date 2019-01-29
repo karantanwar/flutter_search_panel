@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'search_page.dart';
+import 'search_item.dart';
 
-class FlutterSearchPanel extends StatefulWidget {
+class FlutterSearchPanel<TValue> extends StatefulWidget {
   @required
-  final Function(String) onChanged;
+  final Function onChanged;
   @required
-  final List<String> data;
+  final List<SearchItem<TValue>> data;
   final String title;
   final Icon icon;
   final TextStyle textStyle;
   final Color color;
   final EdgeInsetsGeometry padding;
-  final String selected;
+  final TValue selected;
 
   FlutterSearchPanel(
       {this.onChanged,
@@ -25,12 +26,13 @@ class FlutterSearchPanel extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return new _FlutterSearchPanelState();
+    return new _FlutterSearchPanelState<TValue>();
   }
 }
 
-class _FlutterSearchPanelState extends State<FlutterSearchPanel> {
-  String selection;
+class _FlutterSearchPanelState<TValue>
+    extends State<FlutterSearchPanel<TValue>> {
+  SearchItem<TValue> selection;
   final _defaultIcon = Icons.label;
   final TextStyle _defaultTextStyle =
       new TextStyle(color: Colors.black, fontSize: 12.0);
@@ -42,8 +44,8 @@ class _FlutterSearchPanelState extends State<FlutterSearchPanel> {
     super.initState();
     if (widget.selected != null) {
       selection = widget.data.firstWhere(
-          (e) => (e.toUpperCase() == widget.selected.toUpperCase()),
-          orElse: () => widget.data[0]);
+          (item) => item.value == widget.selected,
+          orElse: () => selection = widget.data[0]);
     } else {
       selection = widget.data[0];
     }
@@ -72,7 +74,7 @@ class _FlutterSearchPanelState extends State<FlutterSearchPanel> {
         selection = result;
       });
       if (widget.onChanged != null) {
-        widget.onChanged(result);
+        widget.onChanged((result as SearchItem<TValue>).value);
       }
     }
   }
@@ -88,7 +90,7 @@ class _FlutterSearchPanelState extends State<FlutterSearchPanel> {
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
-                  selection,
+                  selection.text,
                   style: widget.textStyle ?? Theme.of(context).textTheme.button,
                 ),
               ),
