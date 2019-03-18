@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'search_item.dart';
 
 class SearchPage extends StatefulWidget {
-  final List<String> data;
+  final List<SearchItem> data;
   final Icon icon;
   final TextStyle textStyle;
   final Color color;
@@ -24,9 +25,9 @@ class SearchPage extends StatefulWidget {
 
 class _SearchPageState extends State<SearchPage> {
   TextEditingController controller = new TextEditingController();
-  List<String> _searchList = [];
+  List<SearchItem> _searchList = [];
 
-  List<String> _dataList = [];
+  List<SearchItem> _dataList = [];
   @override
   void initState() {
     super.initState();
@@ -40,7 +41,7 @@ class _SearchPageState extends State<SearchPage> {
     super.dispose();
   }
 
-  _onChange(String selection) {
+  _onChange(SearchItem selection) {
     Navigator.pop(context, selection);
   }
 
@@ -91,7 +92,7 @@ class _SearchPageState extends State<SearchPage> {
                           },
                           child: new ListTile(
                             leading: widget.icon,
-                            title: new Text(_searchList[i],
+                            title: new Text(_searchList[i].text,
                                 style: widget.textStyle),
                           ),
                         ),
@@ -111,7 +112,7 @@ class _SearchPageState extends State<SearchPage> {
                             child: new ListTile(
                               leading: widget.icon,
                               title: new Text(
-                                _dataList[index],
+                                _dataList[index].text,
                                 style: widget.textStyle,
                               ),
                             )),
@@ -133,8 +134,8 @@ class _SearchPageState extends State<SearchPage> {
     }
 
     _dataList.forEach((userDetail) {
-      if (userDetail.toLowerCase().startsWith(text.toLowerCase()) ||
-          userDetail.toLowerCase().startsWith(
+      if (userDetail.text.startsWith(text.toLowerCase()) ||
+          userDetail.text.toLowerCase().startsWith(
               text.toLowerCase())) if (_searchList.contains(userDetail) ==
           false) {
         _searchList.add(userDetail);

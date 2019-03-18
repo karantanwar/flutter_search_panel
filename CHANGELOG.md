@@ -12,3 +12,7 @@
 
 * First stable release
 * Description Update
+
+## 1.0.1
+
+* Added Dynamic data

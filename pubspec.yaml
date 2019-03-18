@@ -1,6 +1,6 @@
 name: flutter_search_panel
-description: Flutter search panel is a widget that can be used to provide search functionality to users for selectiong values from an array of strings.
-version: 1.0.0
+description: Flutter search panel is a widget that can be used to provide search functionality to users for selectiong values from an data array.
+version: 1.0.1
 author: Karan Tanwar <karantanwar.nitd@gmail.com>
 homepage: https://github.com/karantanwar/flutter_search_panel
 
